@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/rest.css"/><!--清除默认样式-->
+		<link rel="stylesheet" type="text/css" href="css/main.css"/><!--首页css文件-->
+	</head>
+	<body>
+		<!--登录弹出-->
+		<div id="wrap">
+			<div id="box">
+				<h2>登录<span class="sigup">还没有账号？<span class="blue">立即注册</span></span><span id="close">X</span></h2>
+				<div class="cont">
+					<div class="cont_login">
+						<form action="">
+							<div class="form-group">
+								<label >账号:</label>
+								<input type="text" class="form-control" />
+							</div>
+							<div class="form-group">
+								<label>密码:</label>
+								<input type="password" />
+							</div>
+							<div class="form-group">
+								<a href="#">忘记密码？</a>
+							</div>
+							<div class="form-group">
+								<button type="submit">登录</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--顶部导航栏滑出-->
+		<div class="top_header" id="top">
+			<div class="container">
+				<div class="fl top_nav_pic">
+					 <div class="index"></div>
+					 <span>做工程网首页</span>
+				</div>
+				<div class="fr">
+					 <ul class="fl top_right clear">
+					 	<li><span>登录</span></li>
+					 	<li><span>免费注册</span></li>
+					 	<li class="top_right_li" >
+					 		<em class="top_ico"></em>
+					 		<span>购物车</span>
+					 		<span class="red">3</span>
+					 		<i ></i>
+					 	</li>
+					 	<li><span>帮助中心</span><i></i></li>
+					 	<li><span>网站导航</span><i></i></li>
+					 </ul>
+				</div>
+			</div>
+		</div>
+		<!--返回顶部按钮-->
+		<div id='back' class="back">
+			<div class="back_pic"></div>
+		</div>
+		<!--顶部导航栏-->
+		<div class="top_nav clear">
+			<div class="container top_top">
+				<div class="fl top_nav_pic">
+					 <div class="index"></div>
+					 <span>做工程网首页</span>
+				</div>
+				<div class="fr">
+					 <ul class="fl top_right clear">
+					 	<li id="btn"><span>登录</span></li>
+					 	<li><span>免费注册</span></li>
+					 	<li class="top_right_li" id="top_right_li">
+					 		<em class="top_ico"></em>
+					 		<span>购物车</span>
+					 		<span class="red">3</span>
+					 		<i id="ico"></i>
+					 		<div id="Top_toggle">
+						 		<div class="top_toggle" >
+									<div class="top_small"></div>
+									<div class="top_txt">
+										<ul>
+											<li>搬砖工人</li>
+											<li>搬砖工人</li>
+											<li>搬砖工人</li>
+										</ul>
+									</div>
+					 			</div>
+							</div>
+					 	</li>
+					 	<li><span>帮助中心</span><i></i></li>
+					 	<li><span>网站导航</span><i></i></li>
+					 </ul>
+				</div>
+				
+			</div>
+		</div>
+		<!--logo及搜索框-->
+		<div class="logo_nav clear">
+			<div class="container">
+				<div class="col-2 fl logo"><img src="img/LOGO.png"/></div>
+				<div class="col-2">
+					<div class="logo_cont">
+						<div class="txt">施工团队/人才</div>
+						<p>ren.zuogc.com</p>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="logo_input">
+						<form>
+							<div class="logo_input_select">
+								<div class="logo_searh" id="Logo_searh">
+									<span >综合搜索</span>
+									<i id="ico1"></i>
+									<div id="input_txt">
+								 		<div class="input_view" >
+											<div class="input_con">
+												<ul id="input_ul">
+													<li><a >北京</a></li>
+													<li><a >河北</a></li>
+													<li><a >天津</a></li>
+													<li><a >河南</a></li>
+													<li><a >山东</a></li>
+													<li><a >陕西</a></li>
+												</ul>
+											</div>
+							 			</div>
+									</div>
+								</div>
+							</div>
+							<input type="text" placeholder="请输入关键字" class="logo_input_txt"/>
+							<button type="button" class="logo_input_btn">搜索</button>
+						</form>
+						<div class="logo_bottom">
+							热门搜索：
+							<a href="#" class="red">能人</a> 
+							<a href="#" class="red">二手机械</a>
+							<a href="#" class="red">施工方案</a>
+							<a href="">做标书</a>
+							<a href="">企业包装升级</a>      
+							<a href="">工程智能化</a>       
+							<a href="">合同范本</a>        
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--头部文字-->
+		<div class="header_nav clear">
+			<div class="container">
+				<div class="col-2"></div>
+				<div class="col-8">
+					<ul class="header_ul">
+						<li class="active">首页</li>
+						<li>品牌企业</li>
+						<li>金牌推荐</li>
+						<li>施工总承包</li>
+						<li>专业承包</li>
+						<li>劳务分包</li>
+						<li>专业施工队伍</li>
+						<li>能人</li>
+						<li>招聘</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="banner_nav" id="banner_nav">
+			<div id="view">
+				<ul class="banner_pic">
+					<li><img src="img/banner.png" alt="banner"/></li>
+					<li><img src="img/banner1.png" alt="banner1"/></li>
+					<li><img src="img/banner2.png" alt="banner2"/></li>
+					<li><img src="img/banner3.png" alt="banner3"/></li>
+				</ul>
+			</div>
+			<div class="container header_content">
+				<div>
+					<a class="btn1" id="btn_L"></a>
+					<a class="btn2" id="btn_R"></a>
+				</div>
+				<div class="banner_cont">
+					<ul id="banner_ul">
+						<div class="class">
+							<div class="class_cont">
+								<div class="class_pic"></div>
+								全部分类
+							</div>
+						</div>
+						<li>
+							<div>
+								<div class="banner_txt">施工总承包<i></i></div>
+								<div class="banner_span">
+									<a href="#">公路工程</a>
+									<a href="#">铁路工程</a>
+									<a href="#">电力工程</a>
+								</div>
+							</div>
+							<div class="banner_sub">
+								<div class="banner_top">
+									<p>施工总承包</p>
+									<div class="banner_font">
+										<span>港口与航道工程</span>
+										<span class="green">水利水电工程</span>
+										<span>公路工程</span>
+										<span>市政公用工程</span>
+										<span class="green">铁路工程</span>
+										<span>电力工程</span>
+										<span>矿山工程</span>
+										<span>房屋建筑工程</span>
+										<span>化工石油工程</span>
+										<span class="green">冶炼工程</span>
+										<span>机电安装工程</span>
+										<span>通信工程</span>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<div class="banner_txt">施工总承包<i></i></div>
+								<div class="banner_span">
+									<a href="#">公路工程</a>
+									<a href="#">铁路工程</a>
+									<a href="#">电力工程</a>
+								</div>
+							</div>
+							<div class="banner_sub">
+								<div class="banner_top">
+									<p>施工总承包</p>
+									<div class="banner_font">
+										<span>港口与航道工程</span>
+										<span class="green">水利水电工程</span>
+										<span>公路工程</span>
+										<span>市政公用工程</span>
+										<span class="green">铁路工程</span>
+										<span>电力工程</span>
+										<span>矿山工程</span>
+										<span>房屋建筑工程</span>
+										<span>化工石油工程</span>
+										<span class="green">冶炼工程</span>
+										<span>机电安装工程</span>
+										<span>通信工程</span>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<div class="banner_txt">施工总承包<i></i></div>
+								<div class="banner_span">
+									<a href="#">公路工程</a>
+									<a href="#">铁路工程</a>
+									<a href="#">电力工程</a>
+								</div>
+							</div>
+							<div class="banner_sub">
+								<div class="banner_top">
+									<p>施工总承包</p>
+									<div class="banner_font">
+										<span>港口与航道工程</span>
+										<span class="green">水利水电工程</span>
+										<span>公路工程</span>
+										<span>市政公用工程</span>
+										<span class="green">铁路工程</span>
+										<span>电力工程</span>
+										<span>矿山工程</span>
+										<span>房屋建筑工程</span>
+										<span>化工石油工程</span>
+										<span class="green">冶炼工程</span>
+										<span>机电安装工程</span>
+										<span>通信工程</span>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<div class="banner_txt">施工总承包<i></i></div>
+								<div class="banner_span">
+									<a href="#">公路工程</a>
+									<a href="#">铁路工程</a>
+									<a href="#">电力工程</a>
+								</div>
+							</div>
+							<div class="banner_sub">
+								<div class="banner_top">
+									<p>施工总承包</p>
+									<div class="banner_font">
+										<span>港口与航道工程</span>
+										<span class="green">水利水电工程</span>
+										<span>公路工程</span>
+										<span>市政公用工程</span>
+										<span class="green">铁路工程</span>
+										<span>电力工程</span>
+										<span>矿山工程</span>
+										<span>房屋建筑工程</span>
+										<span>化工石油工程</span>
+										<span class="green">冶炼工程</span>
+										<span>机电安装工程</span>
+										<span>通信工程</span>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<div class="banner_txt">施工总承包<i></i></div>
+								<div class="banner_span">
+									<a href="#">公路工程</a>
+									<a href="#">铁路工程</a>
+									<a href="#">电力工程</a>
+								</div>
+							</div>
+							<div class="banner_sub">
+								<div class="banner_top">
+									<p>施工总承包</p>
+									<div class="banner_font">
+										<span>港口与航道工程</span>
+										<span class="green">水利水电工程</span>
+										<span>公路工程</span>
+										<span>市政公用工程</span>
+										<span class="green">铁路工程</span>
+										<span>电力工程</span>
+										<span>矿山工程</span>
+										<span>房屋建筑工程</span>
+										<span>化工石油工程</span>
+										<span class="green">冶炼工程</span>
+										<span>机电安装工程</span>
+										<span>通信工程</span>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<div class="banner_txt">施工总承包<i></i></div>
+								<div class="banner_span">
+									<a href="#">公路工程</a>
+									<a href="#">铁路工程</a>
+									<a href="#">电力工程</a>
+								</div>
+							</div>
+							<div class="banner_sub">
+								<div class="banner_top">
+									<p>施工总承包</p>
+									<div class="banner_font">
+										<span>港口与航道工程</span>
+										<span class="green">水利水电工程</span>
+										<span>公路工程</span>
+										<span>市政公用工程</span>
+										<span class="green">铁路工程</span>
+										<span>电力工程</span>
+										<span>矿山工程</span>
+										<span>房屋建筑工程</span>
+										<span>化工石油工程</span>
+										<span class="green">冶炼工程</span>
+										<span>机电安装工程</span>
+										<span>通信工程</span>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<ol>
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+		</div>
+		<!--金牌服务推荐-->
+		<div class="serve">
+			<div class="container color" id="serve_cont">
+				<div class="serve_top clear">
+					<h2 class="fl">金牌服务推荐</h2>
+					<div class="striat"></div>
+					<div class="serve_top_more"><span>更多推荐</span><i></i></div>
+				</div>
+				<div class="serve_footer clear">
+					<ul class="serve_ul">
+						<li>
+							<div class="serve_ul_img"><img src="img/images/pic_1.png"/></div>
+							<div>
+								<h3>上海启动建筑集团</h3>
+								<p class="serve_ul_active">企业类型：股份合作企业</p>
+								<p>注册地址：上海市奉贤区</p>
+								<p>好评率:<span class="red">100%</span></p>
+							</div>
+							<div class="serve_ul_call">联系我们</div>
+						</li>
+						<li>
+							<div class="serve_ul_img"><img src="img/images/pic_2.png"/></div>
+							<div>
+								<h3>上海建工集团有限公司</h3>
+								<p class="serve_ul_active">企业类型：股份合作企业</p>
+								<p>注册地址：上海市奉贤区</p>
+								<p>好评率:<span class="red">100%</span></p>
+							</div>
+							<div class="serve_ul_call">联系我们</div>
+						</li>
+						<li>
+							<div class="serve_ul_img"><img src="img/images/pic_3.png"/></div>
+							<div>
+								<h3>绿地集团有限公司</h3>
+								<p class="serve_ul_active">企业类型：股份合作企业</p>
+								<p>注册地址：上海市奉贤区</p>
+								<p>好评率:<span class="red">100%</span></p>
+							</div>
+							<div class="serve_ul_call">联系我们</div>
+						</li>
+						<li>
+							<div class="serve_ul_img"><img src="img/images/pic_4.png"/></div>
+							<div>
+								<h3>绿地集团有限公司</h3>
+								<p class="serve_ul_active">企业类型：股份合作企业</p>
+								<p>注册地址：上海市奉贤区</p>
+								<p>好评率:<span class="red">100%</span></p>
+							</div>
+							<div class="serve_ul_call">联系我们</div>
+						</li>
+						<li>
+							<div class="serve_ul_img"><img src="img/images/pic_5.png"/></div>
+							<div>
+								<h3>利海中国控股有限公司</h3>
+								<p class="serve_ul_active">企业类型：股份合作企业</p>
+								<p>注册地址：上海市奉贤区</p>
+								<p>好评率:<span class="red">100%</span></p>
+							</div>
+							<div class="serve_ul_call">联系我们</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--广告图-->
+		<div class="container banner_img"><img src="img/banner_1.png"/></div>
+		<!--施工团队-->
+		<div class="container">
+			<div class="team" id="team">
+				<div class="team_top clear">
+					<h2 class="fl">施工团队</h2>
+					<ul class="team_ul" id="team_ul">
+						<li class="team_ul_active">施工总承包企业</li>
+						<li>专业承包企业</li>
+					</ul>
+				</div>
+				<div class="team_view">
+					<div class="team_content clear" >
+						<ul class="clear team_content_ul">
+							<li class="bb bf">
+								<div class="fl team_content_first"><img src="img/images/build_1.png"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+							<li class="bb bf">
+								<div class="fl team_content_img"><img src="img/images/build_1.png"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+							<li class="bb">
+								<div class="fl team_content_img"><img src="img/images/build_1.png"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+						</ul>
+						<ul class="clear team_content_ul pp">
+							<li class="bf">
+								<div class="fl team_content_last"><img src="img/images/build_1.png"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+							<li class="bf">
+								<div class="fl team_content_img"><img src="img/images/build_1.png"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+							<li >
+								<div class="fl team_content_img"><img src="img/images/build_1.png"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="team_content clear" >
+						<ul class="clear team_content_ul">
+							<li class="bb bf">
+								<div class="fl team_content_first"><img src="img/img2.png" alt="上海建工集团有限公司"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+							<li class="bb bf">
+								<div class="fl team_content_img"><img src="img/img2.png" alt="上海建工集团有限公司"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+							<li class="bb">
+								<div class="fl team_content_img"><img src="img/img2.png" alt="上海建工集团有限公司"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+						</ul>
+						<ul class="clear team_content_ul pp">
+							<li class="bf">
+								<div class="fl team_content_last"><img src="img/img2.png" alt="上海建工集团有限公司"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+							<li class="bf">
+								<div class="fl team_content_img"><img src="img/img2.png" alt="上海建工集团有限公司"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+							<li >
+								<div class="fl team_content_img"><img src="img/img2.png" alt="上海建工集团有限公司"/></div>
+								<div class="fl pt">
+									<h3>上海启东建筑 集团有限公司</h3>
+									<p class="serve_ul_active">企业类型：股份合作企业</p>
+									<p>注册地址：上海市奉贤区</p>
+									<p>好评率:<span class="red">100%</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--无缝滚动-->
+		<div class="container">
+			<div class="rush clear" id="rush_view">
+				<ul class="rush_ul">
+					<li><img src="img/images/build_2.png"/></li>
+					<li><img src="img/images/build_3.png"/></li>
+					<li><img src="img/images/build_4.png"/></li>
+					<li><img src="img/images/build_5.png"/></li>
+					<li><img src="img/images/build_6.png"/></li>
+					<li><img src="img/images/build_7.png"/></li>
+				</ul>
+			</div>
+		</div>
+		<!--招聘信息-->
+		<div class="container">
+			<div class="newest">
+				<div class="newest_top">
+					<div class="fl newest_txt">最新人才招聘</div>
+					<div class="fr newest_move"><span>更多</span><i></i></div>
+				</div>
+				<div class="newest_data">
+					<ul>
+						<li class="clear">
+							<div class="col-2 blue">电梯安装维保工程师月薪8千以上</div>
+							<div class="col-2">
+								<div class="fr">瑞梯机电设备(上海)有限公司</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">上海市宝山区</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">
+									<span class="red">8000-12000</span>
+									<span>元/月</span>
+								</div>
+							</div>
+							<div class="col-2"><div class="fr">2016-10-28</div></div>
+						</li>
+						<li class="clear">
+							<div class="col-2 blue">电梯安装维保工程师月薪8千以上</div>
+							<div class="col-2">
+								<div class="fr">瑞梯机电设备(上海)有限公司</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">上海市宝山区</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">
+									<span class="red">8000-12000</span>
+									<span>元/月</span>
+								</div>
+							</div>
+							<div class="col-2"><div class="fr">2016-10-28</div></div>
+						</li>
+						<li class="clear">
+							<div class="col-2 blue">电梯安装维保工程师月薪8千以上</div>
+							<div class="col-2">
+								<div class="fr">瑞梯机电设备(上海)有限公司</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">上海市宝山区</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">
+									<span class="red">8000-12000</span>
+									<span>元/月</span>
+								</div>
+							</div>
+							<div class="col-2"><div class="fr">2016-10-28</div></div>
+						</li>
+						<li class="clear">
+							<div class="col-2 blue">电梯安装维保工程师月薪8千以上</div>
+							<div class="col-2">
+								<div class="fr">瑞梯机电设备(上海)有限公司</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">上海市宝山区</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">
+									<span class="red">8000-12000</span>
+									<span>元/月</span>
+								</div>
+							</div>
+							<div class="col-2"><div class="fr">2016-10-28</div></div>
+						</li>
+						<li class="clear">
+							<div class="col-2 blue">电梯安装维保工程师月薪8千以上</div>
+							<div class="col-2">
+								<div class="fr">瑞梯机电设备(上海)有限公司</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">上海市宝山区</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">
+									<span class="red">8000-12000</span>
+									<span>元/月</span>
+								</div>
+							</div>
+							<div class="col-2"><div class="fr">2016-10-28</div></div>
+						</li>
+						<li class="clear">
+							<div class="col-2 blue">电梯安装维保工程师月薪8千以上</div>
+							<div class="col-2">
+								<div class="fr">瑞梯机电设备(上海)有限公司</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">上海市宝山区</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">
+									<span class="red">8000-12000</span>
+									<span>元/月</span>
+								</div>
+							</div>
+							<div class="col-2"><div class="fr">2016-10-28</div></div>
+						</li>
+						<li class="clear">
+							<div class="col-2 blue">电梯安装维保工程师月薪8千以上</div>
+							<div class="col-2">
+								<div class="fr">瑞梯机电设备(上海)有限公司</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">上海市宝山区</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">
+									<span class="red">8000-12000</span>
+									<span>元/月</span>
+								</div>
+							</div>
+							<div class="col-2"><div class="fr">2016-10-28</div></div>
+						</li>
+						<li class="clear">
+							<div class="col-2 blue">电梯安装维保工程师月薪8千以上</div>
+							<div class="col-2">
+								<div class="fr">瑞梯机电设备(上海)有限公司</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">上海市宝山区</div>
+							</div>
+							<div class="col-2">
+								<div class="fr">
+									<span class="red">8000-12000</span>
+									<span>元/月</span>
+								</div>
+							</div>
+							<div class="col-2"><div class="fr">2016-10-28</div></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--底部指南-->
+		<div class="bottom">
+			<div class="container">
+				<ul class="clear">
+					<li>
+						<div class="bottom_first">
+							<h3 class="clear"><i class="ico"></i>新手指南</h3>
+							<div class="bottom_font">
+								<p>用户注册手册</p>
+								<p>用户使用手册</p>
+								<p>交易规则中心</p>
+							</div>
+						</div>
+					</li>
+					<li >
+						<div class="bottom_first">
+							<h3 class="clear"><i class="ico_1"></i>我是甲方</h3>
+							<div class="bottom_font">
+								<p>发布需求</p>
+								<p>挑选乙方</p>
+							</div>
+						</div>
+					</li>
+					<li >
+						<div class="bottom_first">
+							<h3 class="clear"><i class="ico_2"></i>我是乙方</h3>
+							<div class="bottom_font">
+								<p>投标赚钱</p>
+								<p>开店赚钱</p>
+							</div>
+						</div>
+					</li>
+					<li >
+						<div class="bottom_first">
+							<h3 class="clear"><i class="ico_3"></i>交易保障</h3>
+							<div class="bottom_font">
+								<p>投标赚钱</p>
+								<p>开店赚钱</p>
+								<p>信用查询</p>
+							</div>
+						</div>
+					</li>
+					<li >
+						<div><img src="img/诚信宝.png"/></div>
+						<p class="bottom_p">做工程网致力于成为<br/>最诚信的服务众包平台</p>
+					</li>
+					<li class=" ">
+						<div class="wechat">
+								<h3>微信公众号</h3>
+						</div>
+						<p class="wechat_g">关注微信公众号</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--版权信息-->
+		<div class="footer">
+			<div class="container">
+				<div class="footer_top">
+					<ul class="clear">
+						<li><a href="#">关于我们</a><span>|</span></li>
+						<li><a href="#">联系我们</a><span>|</span></li>
+						<li><a href="#">联系客服</a><span>|</span></li>
+						<li><a href="#">支付方式</a><span>|</span></li>
+						<li><a href="#">热门服务</a><span>|</span></li>
+						<li><a href="#">与我们合作</a><span>|</span></li>
+						<li><a href="#">做工程网人才招聘</a><span>|</span></li>
+						<li><a href="#">友情链接</a><span>|</span></li>
+						<li><a href="#">做工程网动态</a></li>
+					</ul>
+				</div>
+				<div class="footer_content">
+					<ul class="clear">
+						<li>友情链接：</li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+						<li><a href="#">法律咨询</a></li>
+						<li><a href="#">需求市场</a></li>
+					</ul>
+				</div>
+				<div class="footer_bottom">Copyright 2005-2016 zbj.com 版权所有 渝ICP备10202274-4号 渝B2-20080005</div>
+			</div>
+		</div>
+		<script src="js/animate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

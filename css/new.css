@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box; /*所有元素的宽度以边框开始计算*/
+}
+body{
+	font-size: 14px;
+	color: #444;
+}
+
+
+.container{/*容器--用于作用类元素的居中显示*/
+	display: block;
+	width: 1200px;
+	margin: 0 auto;
+}
+.fl{/*左浮动*/
+	float: left;
+}
+.fr{/*右浮动*/
+	float: right;
+}
+.clear:after,/*作用类元素的倒数第一个元素*/
+.clear:before{/*作用类元素的第一个元素*/
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*定义一套分割系统*/
+.col-1,
+.col-15,
+.col-2,
+.col-25,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9{
+	display: block;
+	position: relative;
+	min-height: 1px;
+	float: left;
+}
+.col-1{
+	width: 10%;
+}
+.col-15{
+	width: 15%;
+}
+.col-2{
+	width: 20%;
+}
+.col-25{
+	width: 25%;
+}
+.col-3{
+	width: 30%;
+}
+.col-4{
+	width: 40%;
+}
+.col-5{
+	width: 50%;
+}
+.col-6{
+	width: 60%;
+}
+.col-7{
+	width: 70%;
+}
+.col-8{
+	width: 80%;
+}
+.col-9{
+	width: 90%;
+}
